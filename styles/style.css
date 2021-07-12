@@ -18,6 +18,13 @@ nav {
     height: 94px;
     left: 0px;
     background: #562EFF;
+    display: flex;
+}
+
+.option  {
+    /* list-style: none; */
+    color: white;
+    text-decoration: none;
 }
 
 /* main {
@@ -204,3 +211,27 @@ hr {
     font-family: 'Poppins', sans-serif;
     padding: 5px 10px 5px 10px;
 }
+
+/* Media Queries */
+
+/*---------------
+Mobile  Devices 
+----------------*/
+/* @media only screen and (max-width: 688px){
+    .container{
+        width: 100%;
+    }
+
+    .players, .blogs, courses {
+        grid-template-columns: repeat(1, 1f);
+    }
+
+    .player, .blog{
+        flex-direction: column;
+
+    }
+    
+    .blogs, .courses{
+        display: none;
+    }
+} */
