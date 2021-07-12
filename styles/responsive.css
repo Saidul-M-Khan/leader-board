@@ -171,7 +171,7 @@
 
     .container {
         width: 100%;
-        padding: 0;
+        padding: 10px;
     }
 
     .players, .blogs, .courses {
@@ -180,6 +180,7 @@
 
     .top-player-title {
         text-align: center;
+        margin-left: 10px;
     }
 
     .top-blog-title {
