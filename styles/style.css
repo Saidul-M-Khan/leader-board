@@ -6,27 +6,53 @@ html,
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    width: 100%;
 }
 
-main {
+nav {
+    position: relative;
+    z-index: 4;
+    width: 1440px;
+    height: 94px;
+    left: 0px;
+    background: #562EFF;
+}
+
+/* main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .container {
     background-color: #FFFFFF;
     width: 870px;
     border-radius: 5px;
+
     padding-left: 30px;
-    margin-top: 21px;
+    padding-right: 30px;
+
+    margin-bottom: 28px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 36px;
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    
+    align-items: center;
 }
 
 hr {
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
-    margin-left: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
     width: 807px;
     height: 0px;
     left: 315px;
@@ -38,7 +64,7 @@ hr {
 
 .top-players {
     margin-bottom: 30px;
-    ;
+
 }
 
 /* top players style */
@@ -52,6 +78,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
+    grid-column-gap: 14px;
 }
 
 .player {
@@ -129,9 +156,9 @@ hr {
 .course {
     box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
     /* background-color: rgba(255, 254, 224, 0.465); */
-    background-image: linear-gradient(6deg,white, lightcyan);
-    padding-left: 20px;
-    padding-right: 20px;
+    background-image: linear-gradient(6deg, white, lightcyan);
+    padding-left: 25px;
+    padding-right: 25px;
     padding-top: 25px;
     padding-bottom: 20px;
     border-radius: 30px;
