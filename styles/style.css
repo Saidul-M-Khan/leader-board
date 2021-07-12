@@ -120,24 +120,29 @@ hr {
 .courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 15px;
+    grid-gap: 25px;
     padding-bottom: 25px;
+    position: relative;
+    align-items: center;
 }
 
 .course {
     box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    /* background-color: rgba(255, 254, 224, 0.465); */
+    background-image: linear-gradient(6deg,white, lightcyan);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 25px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     border-radius: 30px;
-    
 }
 
 .course .course-banner img {
     background-color: #FFFFFF;
+    display: block;
     width: 224px;
     height: 104px;
+    margin: auto;
 }
 
 .course-info {
