@@ -2,6 +2,64 @@
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
 
+    nav {
+        width: 100%;
+    }
+
+    nav .user {
+        position: relative;
+        right: 15px;
+    }
+
+    nav .option {
+        position: relative;
+        right: 50px;
+    }
+
+    .logo {
+        width: 40.42px;
+        height: 50px;
+        position: relative;
+        right: 160px;
+        top: 26px;
+        bottom: 17px;
+    }
+    
+    .web-title {
+        position: relative;
+        right: 500px;
+        top: 30px;
+        font-weight: 500;
+        font-size: 24px;
+        color: white;
+    }
+
+    .option {
+        /* list-style: none; */
+        color: white;
+        text-decoration: none;
+        margin-top: 36px;
+        margin-bottom: 36px;
+        margin-left: 10px;
+        margin-right: 36px;
+        position: relative;
+        right: 300px;
+        left: 12px;
+        font-size: 16px;
+        width: 48px;
+        height: 24px;
+    }
+
+    .user {
+        position: relative;
+        width: 51px;
+        right: 289px;
+        left: 60px;
+        top: 23px;
+        bottom: 20px;
+        border-radius: 50%;
+    }
+
     .container {
         width: 100%;
         padding: 30px 0;
@@ -62,6 +120,54 @@
 /*==== Mobile Device ====*/
 
 @media only screen and (max-width: 688px) {
+
+    nav {
+        width: 100%;
+    }
+
+    nav .user {
+        position: relative;
+        right: 15px;
+    }
+
+    nav .option {
+        position: relative;
+        right: 50px;
+    }
+
+    .logo {
+        display:  none;
+    }
+    
+    .web-title {
+        position: relative;
+        right: 300px;
+        top: 40px;
+        font-weight: 500;
+        font-size: 15px;
+        color: white;
+    }
+
+    .option {
+        /* list-style: none; */
+        color: white;
+        text-decoration: none;
+        margin-top: 36px;
+        margin-bottom: 36px;
+        margin-left: 10px;
+        margin-right: 65px;
+        position: relative;
+        right: 300px;
+        left: 40px;
+        top: 30px;
+        font-size: 16px;
+        width: 48px;
+        height: 24px;
+    }
+
+    .user {
+        display: none;
+    }
 
     .container {
         width: 100%;
